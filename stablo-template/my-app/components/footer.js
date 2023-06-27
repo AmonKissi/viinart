@@ -2,6 +2,7 @@ import Container from "@/components/container";
 import ThemeSwitch from "@/components/themeSwitch";
 import Image from "next/image";
 import { myLoader } from "@/utils/all";
+import Instagram from "public/img/instagram.svg";
 
 export default function Footer(props) {
   return (
@@ -43,7 +44,7 @@ export default function Footer(props) {
             target="_blank"
             rel="noopener"
             className="relative block w-44">
-            <img src="https://img.shields.io/badge/%F0%9F%93%B8-Instagram-black"
+            <Image src={Instagram} alt="Instagram"
             />
           </a>
         </div>

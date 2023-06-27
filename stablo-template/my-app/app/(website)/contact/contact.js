@@ -58,7 +58,7 @@ export default function Contact({ settings }) {
             Contact Viinart
           </h2>
           <p className="max-w-sm mt-5">
-          Your artistic desires are our top priority. Connect with us to discuss your ideas, share your thoughts, and let us turn your vision into a stunning reality. Whether you prefer filling out the form, sending an email, or giving us a call, we're ready to listen and collaborate. Reach out today and let the artistic journey begin.
+          Your artistic desires are our top priority. Connect with us to discuss your ideas, share your thoughts, and let us turn your vision into a stunning reality. Whether you prefer filling out the form, sending an email, or giving us a call, were ready to listen and collaborate. Reach out today and let the artistic journey begin.
           </p>
 
           <div className="mt-5">
