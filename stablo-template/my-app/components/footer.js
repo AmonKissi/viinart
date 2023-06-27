@@ -30,7 +30,7 @@ export default function Footer(props) {
         <span>
           {" "}
           <a
-            href="https://viinart.com/studio"
+            href="./studio"
             rel="noopener"
             target="_blank">
             Administration
