@@ -1,5 +1,7 @@
 # Readme
 
+completed the site
+
 Thank you for downloading this template. To get started quickly, read the _README_ file inside the template folder. Visit _Help Docs_ for more detailed instructions. The main project files are located in the `stablo-template` folder.
 
 ## License
