@@ -32,14 +32,14 @@ export default function Navbar(props) {
       href: "/archive"
     },
     {
-      label: "Pro Version",
-      href: "https://stablo-pro.web3templates.com/",
+      label: "Exhibition",
+      href: "https://www.artsteps.com/view/649a74651f2912cb04c2681f",
       external: true,
-      badge: "new"
+      badge: "3D"
     },
     {
-      label: "Download",
-      href: "https://web3templates.com/templates/stablo-minimal-blog-website-template",
+      label: "Shop",
+      href: "https://www.etsy.com/shop/Viinart",
       external: true
     }
   ];
@@ -86,7 +86,7 @@ export default function Navbar(props) {
                       />
                     ) : (
                       <span className="block text-center">
-                        Stablo
+                        Viinart
                       </span>
                     )}
                   </Link>
@@ -100,7 +100,7 @@ export default function Navbar(props) {
                       />
                     ) : (
                       <span className="block text-center">
-                        Stablo
+                        Viinart
                       </span>
                     )}
                   </Link>

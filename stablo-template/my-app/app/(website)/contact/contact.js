@@ -29,8 +29,8 @@ export default function Contact({ settings }) {
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey,
     settings: {
-      from_name: "Stablo Template",
-      subject: "New Contact Message from Stablo Website"
+      from_name: "Viinart",
+      subject: "New Contact Message from Viinart Website"
     },
     onSuccess: (msg, data) => {
       setIsSuccess(true);
@@ -49,23 +49,22 @@ export default function Contact({ settings }) {
         Contact
       </h1>
       <div className="text-center">
-        <p className="text-lg">We are a here to help.</p>
+        <p className="text-lg">Let us bring your artistic vision to life. Share your creative requests with us.</p>
       </div>
 
       <div className="grid my-10 md:grid-cols-2">
         <div className="my-10">
           <h2 className="text-2xl font-semibold dark:text-white">
-            Contact Stablo
+            Contact Viinart
           </h2>
           <p className="max-w-sm mt-5">
-            Have something to say? We are here to help. Fill up the
-            form or send email or call phone.
+          Your artistic desires are our top priority. Connect with us to discuss your ideas, share your thoughts, and let us turn your vision into a stunning reality. Whether you prefer filling out the form, sending an email, or giving us a call, we're ready to listen and collaborate. Reach out today and let the artistic journey begin.
           </p>
 
           <div className="mt-5">
             <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
               <MapPinIcon className="w-4 h-4" />
-              <span>1734 Sanfransico, CA 93063</span>
+              <span>Ocala, Florida</span>
             </div>
             {settings?.email && (
               <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
