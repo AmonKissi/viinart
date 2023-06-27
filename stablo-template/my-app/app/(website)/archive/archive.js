@@ -68,7 +68,7 @@ export default function Post({ posts: initialposts }) {
         </h1>
         <div className="text-center">
           <p className="mt-2 text-lg">
-            See all posts we have ever written.
+          Behold the vast collection of arts crafted by Viinart, a testament to boundless creativity and artistic mastery.
           </p>
         </div>
         {posts && posts?.length === 0 && (
