@@ -39,7 +39,7 @@ export default function Navbar(props) {
     },
     {
       label: "Shop",
-      href: "https://www.etsy.com/shop/Viinart",
+      href: "https://www.etsy.com/people/3z1dd1vwxsvyijjj?ref=hdrusermenu-profile",
       external: true
     }
   ];
