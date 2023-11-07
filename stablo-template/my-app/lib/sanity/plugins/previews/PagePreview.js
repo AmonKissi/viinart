@@ -10,7 +10,7 @@ export default function PagePreview(props) {
   }
 
   const url =
-    process.env.NODE_ENV === "production"
+    process.env.NODE_ENV === "database"
       ? process.env.SANITY_STUDIO_SITE_URL
         ? `${process.env.SANITY_STUDIO_SITE_URL}/${displayed?.slug?.current}?preview`
         : `${process.env.VERCEL_URL}/${displayed?.slug?.current}?preview`
