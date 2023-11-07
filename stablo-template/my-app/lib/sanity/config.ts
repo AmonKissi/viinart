@@ -10,7 +10,7 @@ export const projectId = process.env
   .NEXT_PUBLIC_SANITY_PROJECT_ID as string;
 
 export const dataset =
-  process.env.NEXT_PUBLIC_SANITY_DATASET || ("database" as string);
+  process.env.NEXT_PUBLIC_SANITY_DATASET || ("production" as string);
 
 // see https://www.sanity.io/docs/api-versioning for how versioning works
 export const apiVersion =
