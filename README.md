@@ -3,7 +3,7 @@ Viinart
 ---
 Viinart: Art Website
 ---
-Current site: https://viinart.com
+Current site: https://viinart.net
 ---
 Vercel: Next.js
 ---
