@@ -13,6 +13,6 @@ Languages: TypeScript, JavaScript, TailwindCSS
 ---
 Company: Build and Run (BRSTORE)
 ---
-Company Website: https://brstore.us
+Company Website: https://github.com/BuildandRun
 ---
 
